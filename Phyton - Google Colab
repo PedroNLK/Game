@@ -1,0 +1,336 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PedroNLK/Game/blob/main/Phyton%20-%20Google%20Colab\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Hello World / Phyton:"
+      ],
+      "metadata": {
+        "id": "cttnqhynLXwF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#hello world é o começo de tudo!\n",
+        "print (\"hello world\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "29tzhO1eLYZg",
+        "outputId": "61fc61ee-4268-424a-e338-6e19e2db8f69"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#olá Pedro"
+      ],
+      "metadata": {
+        "id": "ZgHnsQ8FOmmf"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " x = 10\n",
+        " nome = 'aluno'\n",
+        " nota = 8.75\n",
+        " fez_inscricao = True"
+      ],
+      "metadata": {
+        "id": "jx1ejcKBPWu4"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(x))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YNWD4UMVP1Po",
+        "outputId": "2179b8b7-dffa-4789-8274-65fa16f79faa"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(nome))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SnnjeUezPt-7",
+        "outputId": "1feccfcc-668b-43f8-dc72-ae276b502396"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(nota))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EHK3vhZnP8dk",
+        "outputId": "6ab43a40-6482-450f-e99d-312e2ab8768a"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(fez_inscricao))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gCYqQoMIQBiE",
+        "outputId": "2a6eeaf5-3769-484c-8f80-d377f17bd091"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'bool'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"digite seu nome:\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6yZRSr6TRcYp",
+        "outputId": "78f505b3-6b67-4133-a29b-6a96b55a5de1"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite seu nome:Jorge\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(nome)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C4yhtvmhRkCa",
+        "outputId": "0883816a-31e7-4ce9-9dae-4336651e05e9"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Jorge\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Formatadores de Caracteres\n",
+        "print(\"olá %s, bem-vindo a disciplina de programação. Parabéns pelo seu primeiro hello world\" % (nome))\n",
+        "\n",
+        "\n",
+        "#F-string\n",
+        "print(f\"olá {nome}, bem vindo a disciplina de programação. Parabéns pelo seu primeiro hello world\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ROorIpIyR_vg",
+        "outputId": "8a453789-f5ba-41b8-e1fb-c623d74ebb92"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "olá Jorge, bem-vindo a disciplina de programação. Parabéns pelo seu primeiro hello world\n",
+            "olá Jorge, bem vindo a disciplina de programação. Parabéns pelo seu primeiro hello world\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nota_1 = int(input(\"Digite a primeira nota:\"))\n",
+        "nota_2 = int(input(\"Digite a segunda nota:\"))\n",
+        "nota_3 = int(input(\"Digite a terceira nota:\"))\n",
+        "nota_4 = int(input(\"Digite a quarta nota:\"))\n",
+        "#Observe que utilizamos a função int(), pois sem ela, o phyton que as notas seriam String"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xWPs_ykUS9E9",
+        "outputId": "94fa1973-a874-4494-b908-fab3ed1ca471"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite a primeira nota:5\n",
+            "Digite a segunda nota:6\n",
+            "Digite a terceira nota:7\n",
+            "Digite a quarta nota:9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Condição para a aprovação do aluno\n",
+        "media = (nota_1+nota_2+nota_3+nota_4)/4\n",
+        "\n",
+        "if media >=6:\n",
+        "         situacao = \"Aprovado\"\n",
+        "\n",
+        "else:\n",
+        "         situcao = \"Reprovado\""
+      ],
+      "metadata": {
+        "id": "_KGGrymASqth"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Dadas as notas mostradas á média final e a situação do aluno.\n",
+        "print(f\"A média das notas é: {media}\")\n",
+        "print(f\"A situação do aluno é: {situacao}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FptFBbo1TjbW",
+        "outputId": "ee981cdd-fc7c-42c9-d332-00a80a70eceb"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A média das notas é: 6.75\n",
+            "A situação do aluno é: Aprovado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "b9Z6_1SaUlme"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Olá, este é o Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
